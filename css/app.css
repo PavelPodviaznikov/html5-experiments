@@ -1,0 +1,52 @@
+.navbar-inner{
+	margin: 0 auto;
+	width: 502px;
+}
+
+header.navbar .nav > li > a {
+	padding-left: 30px;
+	padding-right: 30px;
+    line-height: 30px;
+}
+
+.news-item .news-item-picture, .news-item .news-item-details{
+	display: inline-block;
+}
+
+.news{
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+.news-item{
+	border: 2px solid grey;
+	border-radius: 5px;
+	padding-top: 16px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 7px 7px 17px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 17px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 17px rgba(50, 50, 50, 0.75);
+	height: 160px;
+	-webkit-transition: height 1s ease-in;
+	-moz-transition: height 1s ease-in;
+	-ms-transition: height 1s ease-in;
+	-o-transition: height 1s ease-in;
+	transition: height 1s ease-in;	
+}
+
+.news-item:hover{
+	cursor: pointer;
+	background-color: lightgrey;
+	-webkit-box-shadow: 7px 7px 7px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 7px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 7px rgba(50, 50, 50, 0.75);	
+	height: 200px;
+	-webkit-transition: height 1s ease-in;
+	-moz-transition: height 1s ease-in;
+	-ms-transition: height 1s ease-in;
+	-o-transition: height 1s ease-in;
+	transition: height 1s ease-in;
+};
